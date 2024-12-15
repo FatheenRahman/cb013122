@@ -1,0 +1,168 @@
+/*Styles for Body*/
+#title{
+    text-align: center;
+    font-size: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-style: oblique;
+}
+
+#introduction{
+    width: 100%;
+    display: flex;
+    background-size: cover;
+    justify-content: left;
+    align-self: center;
+    text-align: center;
+    font-size: 19px;;
+    text-wrap: wrap;
+}
+
+#services{
+    width: 100%;
+    display: flex;
+    background-size: cover;
+    justify-content: left;
+    align-self: center;
+    text-align: center;
+    font-size: 21px;;
+    text-wrap: wrap;
+}
+
+
+#achievements{
+    width: 100%;
+    display: flex;
+    background-size: cover;
+    justify-content: left;
+    align-self: center;
+    text-align: center;
+    font-size: 21px;;
+    text-wrap: wrap;
+   
+}
+
+#emergency{
+    width: 100%;
+    display: flex;
+    background-size: cover;
+    justify-content: left;
+    align-self: center;
+    text-align: center;
+    font-size: 21px;;
+    text-wrap: wrap;
+    padding-bottom: 75px;
+}
+
+/*Styles for Main Image*/
+section img{
+    width: 50%;
+    height: 500px;
+    border: 7px solid black;
+}
+
+
+#sect img{
+    width: 300px;
+    height: 300px;
+}
+
+#sect{
+    font-size: 27px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    text-align: left;
+    padding: 8px;
+    border: 8px solid rgb(0, 0, 0);
+}
+
+/*Styles for List*/
+#list{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*Media Query for Mobile View*/
+@media screen and (max-width:768px) {
+    #introduction{
+        font-size: 12px;;
+        text-align: center;
+        display: block;
+       
+    }
+    
+    #title{
+        text-align: center;
+        font-size: 16px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: lighter;
+        font-style: oblique;
+    }
+    
+    #services{
+        width: 100%;
+        display: flex;
+        background-size: cover;
+        justify-content: left;
+        align-self: center;
+        text-align: center;
+        font-size: 7px;
+        font-weight: bold;
+    }
+    
+    
+    #achievements{
+        width: 100%;
+        display: flex;
+        background-size: cover;
+        justify-content: left;
+        align-self: center;
+        text-align: center;
+        font-size: 8px;;
+       
+    }
+    
+    #emergency{
+        width: 100%;
+        display: flex;
+        background-size: cover;
+        justify-content: left;
+        align-self: center;
+        text-align: center;
+        font-size: 8px;;
+    }
+    
+    section img{
+        width: 90%;
+        height: 350px;
+        border: 7px solid black;
+        justify-content: space-around;
+    }
+    
+    #sect img{
+        width: 40%;
+        height: 200px;
+    }
+    
+    #sect{
+        font-size: 13px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style: oblique;
+        text-align: left;
+        padding: 8px;
+        border: 8px solid rgb(0, 0, 0);
+    }
+    
+    #list{
+        font-size: 12px;
+        font-style: normal;
+        font-weight: bolder;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display: block;
+    }
+    
+}

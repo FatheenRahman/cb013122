@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="CSS_Styles/CheckoutStyles.css">
+</head>
+<body>
+    <div class="checkout-container">
+        <h1>Checkout Invoice</h1>
+        <div class="cart-summary">
+            <h2>Your Cart</h2>
+            <table id="cart-table">
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody id="cart-items"></tbody>
+            </table>
+            <div class="total">
+                <p>Total Price: <span id="total-price">$0.00</span></p>
+            </div>
+        </div>
+
+        <div id="user-details">
+            <h2>Please Fill Your Personal Details</h2>
+            <form id="checkout-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="contactNumber">Contact Number : </label>
+                <input type="tel" id="contactNumber" name="contactNumber" required><br><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+    
+                <label for="address">Delivery Address:</label>
+                <textarea id="address" name="address" required></textarea><br><br>
+
+                <label for="payment">Payment Method:</label>
+                
+                <select id="payment" name="payment" required>
+                    <option value="" disabled selected>Please select a payment method</option>
+                    <option value="cash">Cash on Delivery</option>
+                    <option value="onlinepayment">Online Payment</option>
+                </select><br><br>
+
+
+                <label for="report">Please Upload The Online Transaction Receipt for Online Payment : </label>
+                <input type="file" name="report" id="report" required><br><br>
+
+            </form>
+        </div><br>
+
+        <button id="confirm-order-btn">Confirm Order</button>
+    </div>
+    <script src="JavaScript/checkout.js"></script>
+</body>
+</html>

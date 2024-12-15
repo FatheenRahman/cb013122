@@ -1,0 +1,150 @@
+/*Styles for Body*/
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    background-color: rgb(255, 255, 255);
+    border: 10px solid black;
+    padding: 8px;
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: inherit;
+}
+
+/*Styles for Navigation*/
+#navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: rgb(238, 255, 143);
+    border: 3px solid black;
+    border-radius: 12px;
+    padding: 12px 12px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/*Hover Effect for Navigation Bar*/
+#navigation:hover {
+    background-color: rgb(255, 196, 102); /*For Background Color Change on Hover*/
+    transform: scale(1.05); /*To Increase Size on Hover*/
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 34px;
+    font-weight: bolder;
+    flex-wrap: wrap;
+    border: 10px solid black;
+    padding: 8px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 3);
+}
+
+header:hover {
+    background-color: #acacac;          
+}
+
+#logo{ 
+    width: 200px;
+    height: 130px;
+}
+
+#footer{
+    font-size: 25px;
+    font-style: normal;
+    font-weight: lighter;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    flex-wrap: wrap;
+    border: 10px solid black;
+    padding: 8px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 3);
+}
+
+#footer:hover{
+    background-color: #acacac;             
+}
+
+
+/*Media Query for Mobile View*/
+@media screen and (max-width:768px) {
+    body{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bolder;
+        font-size: large;
+        background-color: rgb(255, 255, 255);
+        border: 10px solid black;
+        padding: 8px;
+        border-radius: 20px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-blend-mode: inherit;
+    }
+    
+    
+    #navigation{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: normal;
+        font-size: 15px;
+        font-weight: bolder;
+        background-color: rgb(255, 238, 143);
+        border: 3px solid black;
+        border-radius: 12px;
+        padding: 12px 12px;
+        color: white;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1) ; 
+        text-align: center;
+    }
+    
+    header{
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 16px;
+        font-weight: bolder;
+        flex-wrap: wrap;
+        border: 10px solid black;
+        padding: 8px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-style: oblique;
+        box-shadow: 0 0 100px rgba(0, 0, 0, 3);
+    }
+
+    header:hover {
+        background-color: #acacac;             
+    }
+
+    #logo{ width: 80;
+        height: 80;
+    }
+
+    #footer{
+        font-size: 7px;
+        font-style: normal;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+        flex-wrap: wrap;
+        border: 10px solid black;
+        padding: 8px;
+        box-shadow: 0 0 100px rgba(0, 0, 0, 3);
+    }
+
+    #footer:hover{
+        background-color: #acacac;             
+    }
+}

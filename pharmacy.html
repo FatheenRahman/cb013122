@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="WELFARE HOSPITAL">
+    <meta name="description" content="this website contains informations about WELFARE HOSPITAL">
+    <link rel="stylesheet" href="CSS_Styles/HeaderandFooterStyles.css">
+    <link rel="stylesheet" href="CSS_Styles/PharmacyStyles.css">
+    <title>WELFARE HOSPITAL</title>
+    <link rel="shortcut icon" href="Images/favicon_package_v0.16 (1)/android-chrome-192x192.png" type="image/x-icon"><!--Adding Favicon to the Web Application-->
+    <link rel="shortcut icon" href="Images/favicon_package_v0.16 (1)/android-chrome-384x384.png" type="image/x-icon">
+    <link rel="shortcut icon" href="Images/favicon_package_v0.16 (1)/apple-touch-icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="Images/favicon_package_v0.16 (1)/browserconfig.xml" type="image/x-icon">
+    <link rel="shortcut icon" href="Images/favicon_package_v0.16 (1)/favicon-16x16.png" type="image/x-icon">
+    <link rel="shortcut icon" href="Images/favicon_package_v0.16 (1)/favicon-32x32.png" type="image/x-icon">
+    <link rel="shortcut icon" href="Images/favicon_package_v0.16 (1)/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="Images/favicon_package_v0.16 (1)/mstile-150x150.png" type="image/x-icon">
+    <link rel="shortcut icon" href="Images/favicon_package_v0.16 (1)/safari-pinned-tab.svg" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="Images/favicon_package_v0.16 (1)/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="Images/favicon_package_v0.16 (1)/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body bgcolor="#65fcf7">
+    <body background="Images/Background.webp">
+    <header>
+        <section id="logo">
+        <img src="Images/LOGO.jpg" alt="Logo" id="logo">
+        </section>
+        <h1>WELFARE HOSPITAL</h1>
+        <section id="navigation">
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="aboutpage.html">ABOUT US</a>
+            <a href="services.html">SERVICES</a>
+            <a href="doctors.html">DOCTORS</a>
+            <a href="consultingreservation.html">RESERVATION</a>
+            <a href="pharmacy.html">PHARMACY</a>
+            <a href="registrationpage.html">REGISTRATION</a>
+        </nav>
+        </section>
+    </header>
+
+    <main>
+        <h1>Purchase Your Medicines</h1>
+        <div class="container">
+            <!-- Analgesics Section -->
+             <div class="medicine-section">
+                <h2>Analgesics</h2>
+                <div class="medicine">
+                    <img src="Medicines Images/Paracetamol.jpg" alt="i1">
+                    <label>Paracetamol</label>
+                    <input type="number" id="analgesic1-qty" value="1" min="1">
+                    <span class="price">LKR 3,500</span> 
+                    <button onclick="addToCart('Paracetamol', 3500, 'analgesic1-qty')">Add to Cart</button>
+                </div>
+                <div class="medicine">
+                    <img src="Medicines Images/Ibuprofen.jpg" alt="i2">
+                    <label>Ibuprofen</label>
+                    <input type="number" id="analgesic2-qty" value="1" min="1">
+                    <span class="price">LKR 4,200</span> 
+                    <button onclick="addToCart('Ibuprofen', 4200, 'analgesic2-qty')">Add to Cart</button>
+                </div>
+                <div class="medicine">
+                    <img src="Medicines Images/Aspirin.webp" alt="i3">
+                    <label>Aspirin</label>
+                    <input type="number" id="analgesic3-qty" value="1" min="1">
+                    <span class="price">LKR 4,800</span> 
+                    <button onclick="addToCart('Aspirin', 4800, 'analgesic3-qty')">Add to Cart</button>
+                </div>
+                <div class="medicine">
+                    <img src="Medicines Images/Diclofenac.jpg" alt="i4">
+                    <label>Diclofenac</label>
+                    <input type="number" id="analgesic4-qty" value="1" min="1">
+                    <span class="price">LKR 5,600</span> 
+                    <button onclick="addToCart('Diclofenac', 5600, 'analgesic4-qty')">Add to Cart</button>
+                </div>
+                <div class="medicine">
+                    <img src="Medicines Images/Codeine.jpg" alt="i5">
+                    <label>Codeine</label>
+                    <input type="number" id="analgesic5-qty" value="1" min="1">
+                    <span class="price">LKR 6,300</span> 
+                    <button onclick="addToCart('Codeine', 6300, 'analgesic5-qty')">Add to Cart</button>
+                </div>
+                <div class="medicine">
+                    <img src="Medicines Images/Tramadol.jpg" alt="i6">
+                    <label>Tramadol</label>
+                    <input type="number" id="analgesic6-qty" value="1" min="1">
+                    <span class="price">LKR 7,000</span> 
+                    <button onclick="addToCart('Tramadol', 7000, 'analgesic6-qty')">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Antibiotics Section -->
+            <div class="medicine-section">
+                <h2>Antibiotics</h2>
+                <div class="medicine">
+                    <img src="Medicines Images/Amoxicillin.webp" alt="i7">
+                    <label>Amoxicillin</label>
+                    <input type="number" id="antibiotic1-qty" value="1" min="1">
+                    <span class="price">LKR 7,500</span> 
+                    <button onclick="addToCart('Amoxicillin', 7500, 'antibiotic1-qty')">Add to Cart</button>
+                </div>
+                <div class="medicine">
+                    <img src="Medicines Images/Ciprofloxacin.png" alt="i8">
+                    <label>Ciprofloxacin</label>
+                    <input type="number" id="antibiotic2-qty" value="1" min="1">
+                    <span class="price">LKR 8,400</span> 
+                    <button onclick="addToCart('Ciprofloxacin', 8400, 'antibiotic2-qty')">Add to Cart</button>
+                </div>
+                <div class="medicine">
+                    <img src="Medicines Images/Doxycycline.jpg" alt="i9">
+                    <label>Doxycycline</label>
+                    <input type="number" id="antibiotic3-qty" value="1" min="1">
+                    <span class="price">LKR 9,000</span> 
+                    <button onclick="addToCart('Doxycycline', 9000, 'antibiotic3-qty')">Add to Cart</button>
+                </div>
+                <div class="medicine">
+                    <img src="Medicines Images/Erythromycin.jpeg" alt="i10">
+                    <label>Erythromycin</label>
+                    <input type="number" id="antibiotic4-qty" value="1" min="1">
+                    <span class="price">LKR 10,200</span> 
+                    <button onclick="addToCart('Erythromycin', 10200, 'antibiotic4-qty')">Add to Cart</button>
+                </div>
+                <div class="medicine">
+                    <img src="Medicines Images/Clarithromycin.jpg" alt="i11">
+                    <label>Clarithromycin</label>
+                    <input type="number" id="antibiotic5-qty" value="1" min="1">
+                    <span class="price">LKR 10,800</span> 
+                    <button onclick="addToCart('Clarithromycin', 10800, 'antibiotic5-qty')">Add to Cart</button>
+                </div>
+                <div class="medicine">
+                    <img src="Medicines Images/Cephalexin.jpg" alt="i12">
+                    <label>Cephalexin</label>
+                    <input type="number" id="antibiotic6-qty" value="1" min="1">
+                    <span class="price">LKR 12,000</span> 
+                    <button onclick="addToCart('Cephalexin', 12000, 'antibiotic6-qty')">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Antidepressants Section -->
+            <div class="medicine-section">
+                <h2>Antidepressants</h2>
+                <div class="medicine">
+                    <img src="Medicines Images/Fluoxetine.jpg" alt="i13">
+                    <label>Fluoxetine</label>
+                    <input type="number" id="antidepressant1-qty" value="1" min="1">
+                    <span class="price">LKR 4,500</span> 
+                    <button onclick="addToCart('Fluoxetine', 4500, 'antidepressant1-qty')">Add to Cart</button>
+                </div>
+                <div class="medicine">
+                    <img src="Medicines Images/Sertraline.png" alt="i14">
+                    <label>Sertraline</label>
+                    <input type="number" id="antidepressant2-qty" value="1" min="1">
+                    <span class="price">LKR 5,100</span> 
+                    <button onclick="addToCart('Sertraline', 5100, 'antidepressant2-qty')">Add to Cart</button>
+                </div>
+                <div class="medicine">
+                    <img src="Medicines Images/Citalopram.png" alt="i15">
+                    <label>Citalopram</label>
+                    <input type="number" id="antidepressant3-qty" value="1" min="1">
+                    <span class="price">LKR 5,600</span> 
+                    <button onclick="addToCart('Citalopram', 5600, 'antidepressant3-qty')">Add to Cart</button>
+                </div>
+                <div class="medicine">
+                    <img src="Medicines Images/Amitriptyline.jpg" alt="i16">
+                    <label>Amitriptyline</label>
+                    <input type="number" id="antidepressant4-qty" value="1" min="1">
+                    <span class="price">LKR 6,800</span> 
+                    <button onclick="addToCart('Amitriptyline', 6800, 'antidepressant4-qty')">Add to Cart</button>
+                </div>
+                <div class="medicine">
+                    <img src="Medicines Images/Mirtazapine.png" alt="i17">
+                    <label>Mirtazapine</label>
+                    <input type="number" id="antidepressant5-qty" value="1" min="1">
+                    <span class="price">LKR 7,500</span> 
+                    <button onclick="addToCart('Mirtazapine', 7500, 'antidepressant5-qty')">Add to Cart</button>
+                </div>
+                <div class="medicine">
+                    <img src="Medicines Images/Paroxetine.png" alt="i18">
+                    <label>Paroxetine</label>
+                    <input type="number" id="antidepressant6-qty" value="1" min="1">
+                    <span class="price">LKR 8,200</span> 
+                    <button onclick="addToCart('Paroxetine', 8200, 'antidepressant6-qty')">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container2">
+            <!-- Antihistamines Section -->
+            <div class="medicine-section">
+                <h2>Antihistamines</h2>
+                <div class="medicine">
+                    <img src="Medicines Images/Cetirizine.jpg" alt="i19">
+                    <label>Cetirizine</label>
+                    <input type="number" id="antihistamine1-qty" value="1" min="1">
+                    <span class="price">LKR 1,200</span>
+                    <button onclick="addToCart('Cetirizine', 1200, 'antihistamine1-qty')">Add to Cart</button>
+                </div>
+                <div class="medicine">
+                    <img src="Medicines Images/Loratadine.jpg" alt="i20">
+                    <label>Loratadine</label>
+                    <input type="number" id="antihistamine2-qty" value="1" min="1">
+                    <span class="price">LKR 1,500</span>
+                    <button onclick="addToCart('Loratadine', 1500, 'antihistamine2-qty')">Add to Cart</button>
+                </div>
+                <div class="medicine">
+                    <img src="Medicines Images/Fexofenadine.jpg" alt="i21">
+                    <label>Fexofenadine</label>
+                    <input type="number" id="antihistamine3-qty" value="1" min="1">
+                    <span class="price">LKR 1,700</span>
+                    <button onclick="addToCart('Fexofenadine', 1700, 'antihistamine3-qty')">Add to Cart</button>
+                </div>
+                <div class="medicine">
+                    <img src="Medicines Images/Diphenhydramine.webp" alt="i22">
+                    <label>Diphenhydramine</label>
+                    <input type="number" id="antihistamine4-qty" value="1" min="1">
+                    <span class="price">LKR 1,800</span>
+                    <button onclick="addToCart('Diphenhydramine', 1800, 'antihistamine4-qty')">Add to Cart</button>
+                </div>
+                <div class="medicine">
+                    <img src="Medicines Images/Chlorpheniramine.avif" alt="i23">
+                    <label>Chlorpheniramine</label>
+                    <input type="number" id="antihistamine5-qty" value="1" min="1">
+                    <span class="price">LKR 2,000</span>
+                    <button onclick="addToCart('Chlorpheniramine', 2000, 'antihistamine5-qty')">Add to Cart</button>
+                </div>
+                <div class="medicine">
+                    <img src="Medicines Images/Hydroxyzine.jpg" alt="i24">
+                    <label>Hydroxyzine</label>
+                    <input type="number" id="antihistamine6-qty" value="1" min="1">
+                    <span class="price">LKR 2,500</span>
+                    <button onclick="addToCart('Hydroxyzine', 2500, 'antihistamine6-qty')">Add to Cart</button>
+                </div>
+            </div>
+            
+            <!-- Antihypertensives Section -->
+            <div class="medicine-section">
+                <h2>Antihypertensives</h2>
+                <div class="medicine">
+                    <img src="Medicines Images/Amlodipine.png" alt="i25">
+                    <label>Amlodipine</label>
+                    <input type="number" id="antihypertensive1-qty" value="1" min="1">
+                    <span class="price">LKR 1,200</span>
+                    <button onclick="addToCart('Amlodipine', 1200, 'antihypertensive1-qty')">Add to Cart</button>
+                </div>
+                <div class="medicine">
+                    <img src="Medicines Images/Losartan.webp" alt="i26">
+                    <label>Losartan</label>
+                    <input type="number" id="antihypertensive2-qty" value="1" min="1">
+                    <span class="price">LKR 1,500</span>
+                    <button onclick="addToCart('Losartan', 1500, 'antihypertensive2-qty')">Add to Cart</button>
+                </div>
+                <div class="medicine">
+                    <img src="Medicines Images/Enalapril.webp" alt="i27">
+                    <label>Enalapril</label>
+                    <input type="number" id="antihypertensive3-qty" value="1" min="1">
+                    <span class="price">LKR 1,800</span>
+                    <button onclick="addToCart('Enalapril', 1800, 'antihypertensive3-qty')">Add to Cart</button>
+                </div>
+                <div class="medicine">
+                    <img src="Medicines Images/Lisinopril.png" alt="i28">
+                    <label>Lisinopril</label>
+                    <input type="number" id="antihypertensive4-qty" value="1" min="1">
+                    <span class="price">LKR 2,000</span>
+                    <button onclick="addToCart('Lisinopril', 2000, 'antihypertensive4-qty')">Add to Cart</button>
+                </div>
+                <div class="medicine">
+                    <img src="Medicines Images/Metoprolol.jpg" alt="i29">
+                    <label>Metoprolol</label>
+                    <input type="number" id="antihypertensive5-qty" value="1" min="1">
+                    <span class="price">LKR 2,200</span>
+                    <button onclick="addToCart('Metoprolol', 2200, 'antihypertensive5-qty')">Add to Cart</button>
+                </div>
+                <div class="medicine">
+                    <img src="Medicines Images/Carvedilol.png" alt="i30">
+                    <label>Carvedilol</label>
+                    <input type="number" id="antihypertensive6-qty" value="1" min="1">
+                    <span class="price">LKR 2,500</span>
+                    <button onclick="addToCart('Carvedilol', 2500, 'antihypertensive6-qty')">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <!-- Table for added items -->
+            <h2>Shopping Cart</h2>
+            <table id="cart-table">
+                <thead>
+                    <tr>
+                        <th>Medicine</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+            <p>Total Price: LKR <span id="total-price">0</span></p>
+
+            <button onclick="goToCheckout()">Buy Now</button>
+            <button onclick="saveFavourite()">Add to Favourites</button>
+            <button onclick="applyFavourite()">Apply Favourites</button>
+            <button onclick="clearcart()">Clear Cart</button>
+
+        </div>
+    </main>
+    </body>
+    <br><br><br>
+
+    <footer>
+        <section id="footer">
+            <h3>CONTACT OUR 24/7 CLIENT SUPPORT SERVICE</h3>
+            <p>EMAIL: support@welfarehospital.com & PHONE: +94 767688411</p>
+            <P>&copy; 2024 WELFARE HOSPITAL. ALL RIGHTS RESERVED. THIS IS A COPYRIGHTED CONTENT OWNED BY FATHEEN</P>
+        </section>
+        <!--References of Content :
+        
+        LOGO - Design.com, 2024. AI Logo Generator, Available at: https://www.design.com/ai-logo-generator.
+        Background Image - Pxfuel, Available at: https://www.pxfuel.com/. -->
+    </footer>
+    <script src="JavaScript/script.js"></script>
+</body>
+</html>

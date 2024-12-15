@@ -1,0 +1,111 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #9798a0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.checkout-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+    border: 8px solid black;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    font-style: oblique;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    border: 4px solid black;
+}
+
+th, td {
+    padding: 10px;
+    border: 4px solid black;
+    text-align: center;
+    background-color: rgb(224, 240, 230);
+    font-size: 25px;
+}
+
+th {
+    background-color: #a0e9bc;
+}
+
+.total {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #ff5c5c;
+    color: rgb(0, 0, 0);
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 4px solid black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+button:hover {
+    background-color: #4fcc7f;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+
+    .checkout-container {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    table {
+        font-size: 15px;
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    th, td {
+        font-size: 15px;
+        padding: 8px;
+    }
+
+    .total {
+        font-size: 24px;
+    }
+
+    button {
+        font-size: 1em;
+        padding: 8px;
+        background-color: #ff5c5c;
+    }
+
+    button:hover {
+        background-color: #4fcc7f;
+    }
+}

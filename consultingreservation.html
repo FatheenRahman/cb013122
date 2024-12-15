@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="WELFARE HOSPITAL">
+    <meta name="description" content="this website contains informations about WELFARE HOSPITAL">
+    <link rel="stylesheet" href="CSS_Styles/HeaderandFooterStyles.css">
+    <link rel="stylesheet" href="CSS_Styles/ConsultingReservationStyles.css">
+    <title>WELFARE HOSPITAL</title>
+    <link rel="shortcut icon" href="Images/favicon_package_v0.16 (1)/android-chrome-192x192.png" type="image/x-icon"><!--Adding Favicon to the Web Application-->
+    <link rel="shortcut icon" href="Images/favicon_package_v0.16 (1)/android-chrome-384x384.png" type="image/x-icon">
+    <link rel="shortcut icon" href="Images/favicon_package_v0.16 (1)/apple-touch-icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="Images/favicon_package_v0.16 (1)/browserconfig.xml" type="image/x-icon">
+    <link rel="shortcut icon" href="Images/favicon_package_v0.16 (1)/favicon-16x16.png" type="image/x-icon">
+    <link rel="shortcut icon" href="Images/favicon_package_v0.16 (1)/favicon-32x32.png" type="image/x-icon">
+    <link rel="shortcut icon" href="Images/favicon_package_v0.16 (1)/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="Images/favicon_package_v0.16 (1)/mstile-150x150.png" type="image/x-icon">
+    <link rel="shortcut icon" href="Images/favicon_package_v0.16 (1)/safari-pinned-tab.svg" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="Images/favicon_package_v0.16 (1)/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="Images/favicon_package_v0.16 (1)/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body bgcolor="#65fcf7">
+    <body background="Images/Background.webp">
+    <header>
+        <section id="logo">
+        <img src="Images/LOGO.jpg" alt="Logo" id="logo">
+        </section>
+        <h1>WELFARE HOSPITAL</h1>
+        <section id="navigation">
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="aboutpage.html">ABOUT US</a>
+            <a href="services.html">SERVICES</a>
+            <a href="doctors.html">DOCTORS</a>
+            <a href="consultingreservation.html">RESERVATION</a>
+            <a href="pharmacy.html">PHARMACY</a>
+            <a href="registrationpage.html">REGISTRATION</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="title">
+            <h1>Reservation for Consultation</h1>
+        </section>
+
+        <form action="#" method="post" id="Form1"><!--Form for Consultation Reservation-->
+            <fieldset>
+                <legend>PLEASE FILL YOUR PERSONAL INFORMATIONS</legend>
+                <br>
+                
+                <label for="fullName">ENTER THE FULL NAME : </label>
+                <input type="text" id="fullName" name="fullName" required><br>
+                <br>
+
+                <label for="contactNumber">ENTER CONTACT NUMBER : </label>
+                <input type="tel" id="contactNumber" name="contactNumber" required><br>
+                <br>
+
+                <label for="email">ENTER PERSONAL EMAIL : </label>
+                <input type="email" id="email" name="email" required><br>
+                <br>
+
+                <label for="dob">INPUT DATE OF BIRTH : </label>
+                <input type="date" id="dob" name="dob" required><br>
+                <br>
+            
+                
+                <label>SELECT THE GENDER :</label><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">MALE</label><br>
+            
+                
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">FEMALE</label><br>
+                <br>
+            </fieldset>
+            
+            <button type="submit">Submit</button><!--Buttons for Submit and Reset-->
+            <button type="reset">Reset</button>
+        
+        </form>
+        <br>
+        <br>
+        <br>
+
+        <form action="#" method="post" id="Form2">
+            <fieldset>
+                <legend>PLEASE FILL THE DETAILS FOR CONSULTATION RESERVATION</legend>
+                <br>
+                
+                <label for="type">ENTER THE PREFERRED TYPE OF CONSULTATION :</label>
+                <input type="text" id="type" name="type" required><br>
+                <br>
+
+                <label for="docName">ENTER THE NAME OF THE PREFERRED CONSULTANT : </label>
+                <input type="text" id="docName" name="docName" required><br>
+                <br>
+
+                <label for="date">SELECT THE DATE FOR CONSULTATION RESERVATION :</label>
+                <input type="date" id="date" name="date" required><br>
+                <br>
+
+                <label for="time">CHOOSE THE APPOINTMENT TIME FOR CONSULTATION RESERVATION :</label>
+                <input type="time" id="time" name="time" required><br>
+                <br>
+
+                <label>SELECT THE CONSULTATION FORMAT :</label><br>
+                <input type="radio" id="format1" name="ConsultationFormat" value="format1">
+                <label for="format1">OUTPATIENT CONSULTATION</label><br>
+
+                <input type="radio" id="format2" name="ConsultationFormat" value="format2">
+                <label for="format2">INPATIENT CONSULTATION</label><br>
+                <br>
+
+                <label>CHOOSE THE PAYMENT METHOD :</label><br>
+                <input type="radio" id="payment1" name="paymentmethod" value="payment1">
+                <label for="payment1">CASH PAYMENT</label>
+
+                <input type="radio" id="payment2" name="paymentmethod" value="payment2">
+                <label for="payment2">ONLINE BANK TRANSFER</label>
+
+            </fieldset>
+
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </main>
+    <br>
+    <br>
+    <br>
+
+
+    <footer>
+        <section id="footer">
+            <h3>CONTACT OUR 24/7 CLIENT SUPPORT SERVICE</h3>
+            <p>EMAIL: support@welfarehospital.com & PHONE: +94 767688411</p>
+            <P>&copy; 2024 WELFARE HOSPITAL. ALL RIGHTS RESERVED. THIS IS A COPYRIGHTED CONTENT OWNED BY FATHEEN</P>
+        </section>
+        <!--References of Content :
+        
+        LOGO - Design.com, 2024. AI Logo Generator, Available at: https://www.design.com/ai-logo-generator.
+        Background Image - Pxfuel, Available at: https://www.pxfuel.com/.
+        Background Image Of Form - Google Images, Available at: https://images.app.goo.gl/tEPozp6aY2VuZM9V6.-->
+    </footer>
+</body>
+</html>
